@@ -21,7 +21,7 @@ def get_param_grids():
     return {
         'SVC': {'C': [0.1, 1, 10], 'kernel': ['linear', 'rbf'], 'gamma': ['scale', 'auto']},
         'KNN': {'n_neighbors': [3, 5, 7], 'weights': ['uniform', 'distance']},
-        'RandomForest': {'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2']},
+        'RandomForest': {'n_estimators': [50, 100, 200], 'max_features': ['sqrt', 'log2']},
         'AdaBoost': {'n_estimators': [50, 100, 200], 'learning_rate': [0.01, 0.1, 1]},
         'XGB': {'n_estimators': [50, 100, 200], 'learning_rate': [0.01, 0.1, 0.2], 'max_depth': [3, 5, 7]},
         'LGBM': {'n_estimators': [50, 100, 200], 'learning_rate': [0.01, 0.1, 0.2]},

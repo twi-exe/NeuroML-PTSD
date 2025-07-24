@@ -6,3 +6,6 @@ lightgbm
 catboost
 optuna
 bayesian-optimization
+shap
+lime
+eli5
