@@ -1,4 +1,3 @@
-from sklearn.model_selection import GridSearchCV
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
@@ -27,8 +26,3 @@ def get_param_grids():
         'LGBM': {'n_estimators': [50, 100, 200], 'learning_rate': [0.01, 0.1, 0.2]},
         'CatBoost': {'iterations': [50, 100, 200], 'learning_rate': [0.01, 0.1, 0.2], 'depth': [3, 5, 7]}
     }
-
-def train_model(model, param_grid, X_train, y_train):
-    grid = GridSearchCV(model, param_grid, scoring='roc_auc', cv=3)
-    grid.fit(X_train, y_train)
-    return grid.best_estimator_, grid.best_params_
