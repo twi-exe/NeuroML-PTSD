@@ -60,8 +60,6 @@ venv.bak/
 .devcontainer/
 
 (# Data, results and logs — large/generated files)
-data/
-results/
 catboost_info/
 logs/
 *.log
