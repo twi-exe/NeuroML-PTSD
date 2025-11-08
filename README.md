@@ -31,6 +31,15 @@ This project tackles these challenges by:
 
 ---
 
+
+## **Visualization of EEG Montages**
+
+The following image illustrates the EEG topographic maps for two conditions: **Healthy Control** and **Posttraumatic Stress Disorder**. These maps provide a visual comparison of EEG activity across different frequency bands.
+
+![EEG Topographic Maps](results/eeg_topographic_maps.png)
+
+---
+
 ## **Methodology**
 
 1. **Preprocessing**
