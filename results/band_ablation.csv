@@ -1,0 +1,7 @@
+Band,# features,Mean AUC,Std AUC,Interpretation
+delta,190,0.6845185185185185,0.11577066872323712,"Slow-wave, often linked to sleep and unconscious processes."
+theta,190,0.7020000000000002,0.09337685640128104,"Associated with drowsiness, memory, and emotion."
+alpha,190,0.6472592592592592,0.1187912602494805,Linked to relaxed wakefulness and inhibition.
+beta,190,0.7356296296296296,0.09705481884008801,Related to active thinking and alertness.
+highbeta,190,0.5275555555555556,0.12499165404236762,"Linked to arousal, anxiety, and stress."
+gamma,190,0.5888888888888889,0.09024946374603666,Associated with high-level cognitive processing.

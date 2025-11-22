@@ -1,0 +1,43 @@
+Model,Band,# features,Mean AUC,Std AUC,Interpretation
+SVC,delta,190,0.736962962962963,0.09263433133327938,"Slow-wave, often linked to sleep and unconscious processes."
+KNN,delta,190,0.6592592592592592,0.11159622494119067,"Slow-wave, often linked to sleep and unconscious processes."
+RandomForest,delta,190,0.7309259259259259,0.0916040938698562,"Slow-wave, often linked to sleep and unconscious processes."
+LGBM,delta,190,0.6845185185185185,0.11577066872323712,"Slow-wave, often linked to sleep and unconscious processes."
+XGBoost,delta,190,0.6992592592592594,0.12389561516369384,"Slow-wave, often linked to sleep and unconscious processes."
+AdaBoost,delta,190,0.6712592592592592,0.1116042390451165,"Slow-wave, often linked to sleep and unconscious processes."
+CatBoost,delta,190,0.7297037037037037,0.09394710007854806,"Slow-wave, often linked to sleep and unconscious processes."
+SVC,theta,190,0.701925925925926,0.12361371754777377,"Associated with drowsiness, memory, and emotion."
+KNN,theta,190,0.6202962962962963,0.1358446421609659,"Associated with drowsiness, memory, and emotion."
+RandomForest,theta,190,0.6719259259259259,0.10604160997112168,"Associated with drowsiness, memory, and emotion."
+LGBM,theta,190,0.7020000000000002,0.09337685640128104,"Associated with drowsiness, memory, and emotion."
+XGBoost,theta,190,0.6885925925925925,0.1266489916193149,"Associated with drowsiness, memory, and emotion."
+AdaBoost,theta,190,0.6266666666666667,0.07254420155807229,"Associated with drowsiness, memory, and emotion."
+CatBoost,theta,190,0.6948888888888889,0.10034751687341933,"Associated with drowsiness, memory, and emotion."
+SVC,alpha,190,0.7051111111111112,0.08281961822682658,Linked to relaxed wakefulness and inhibition.
+KNN,alpha,190,0.6615185185185185,0.13506412133660067,Linked to relaxed wakefulness and inhibition.
+RandomForest,alpha,190,0.7097037037037037,0.13867408574644782,Linked to relaxed wakefulness and inhibition.
+LGBM,alpha,190,0.6472592592592592,0.1187912602494805,Linked to relaxed wakefulness and inhibition.
+XGBoost,alpha,190,0.658962962962963,0.09533203832324263,Linked to relaxed wakefulness and inhibition.
+AdaBoost,alpha,190,0.5861481481481481,0.1004292843361107,Linked to relaxed wakefulness and inhibition.
+CatBoost,alpha,190,0.7084444444444445,0.09081022283115882,Linked to relaxed wakefulness and inhibition.
+SVC,beta,190,0.7757037037037037,0.08881960262633237,Related to active thinking and alertness.
+KNN,beta,190,0.6271851851851852,0.10766701703366399,Related to active thinking and alertness.
+RandomForest,beta,190,0.6994814814814816,0.1110923687896346,Related to active thinking and alertness.
+LGBM,beta,190,0.7356296296296296,0.09705481884008801,Related to active thinking and alertness.
+XGBoost,beta,190,0.7066666666666667,0.0898967552907055,Related to active thinking and alertness.
+AdaBoost,beta,190,0.7022222222222222,0.07865815675530835,Related to active thinking and alertness.
+CatBoost,beta,190,0.7517777777777779,0.0991771080715308,Related to active thinking and alertness.
+SVC,highbeta,190,0.6985925925925927,0.07609643005205084,"Linked to arousal, anxiety, and stress."
+KNN,highbeta,190,0.5693703703703704,0.14540092153607242,"Linked to arousal, anxiety, and stress."
+RandomForest,highbeta,190,0.5744074074074075,0.09793302069889336,"Linked to arousal, anxiety, and stress."
+LGBM,highbeta,190,0.5275555555555556,0.12499165404236762,"Linked to arousal, anxiety, and stress."
+XGBoost,highbeta,190,0.5705925925925925,0.09280807518907924,"Linked to arousal, anxiety, and stress."
+AdaBoost,highbeta,190,0.6011851851851853,0.08154892831417637,"Linked to arousal, anxiety, and stress."
+CatBoost,highbeta,190,0.5717037037037036,0.0751111111111111,"Linked to arousal, anxiety, and stress."
+SVC,gamma,190,0.6279999999999999,0.06438038536079443,Associated with high-level cognitive processing.
+KNN,gamma,190,0.5458518518518519,0.11903231224346057,Associated with high-level cognitive processing.
+RandomForest,gamma,190,0.6217407407407407,0.10064661316080506,Associated with high-level cognitive processing.
+LGBM,gamma,190,0.5888888888888889,0.09024946374603666,Associated with high-level cognitive processing.
+XGBoost,gamma,190,0.6074814814814815,0.10595464516138837,Associated with high-level cognitive processing.
+AdaBoost,gamma,190,0.6220740740740741,0.09892303474843903,Associated with high-level cognitive processing.
+CatBoost,gamma,190,0.6551111111111111,0.07808068002132533,Associated with high-level cognitive processing.
