@@ -10,7 +10,7 @@ Create a fork of this repository by clicking the "Fork" button at the top right 
 ### 2. Clone Your Fork
 Clone your forked repository to your local machine:
 ```bash
-git clone https://github.com/your-username/NeuroML-PTSD.git
+git clone https://github.com/ParmarDarshan29/NeuroML-PTSD.git
 ```
 
 ### 3. Create a New Branch
